@@ -50,17 +50,6 @@ Este proyecto es una API RESTful desarrollada en Go utilizando el framework Gin,
    air
    ```
 
-## Endpoints principales
-
-- `POST   /auth/signup`   → Registro de usuario
-- `POST   /auth/login`    → Login y obtención de JWT
-- `GET    /auth/session`  → Validación de sesión (requiere JWT)
-- `POST   /auth/logout`   → Cierre de sesión
-- `GET    /users/`        → Listado de usuarios
-- `GET    /users/:id`     → Detalle de usuario
-- `GET    /albums/`       → Listado de álbumes
-- `GET    /albums/:id`    → Detalle de álbum
-
 ## Variables de entorno
 
 - `PORT`           → Puerto donde corre la API
